@@ -5,6 +5,12 @@
 ・Create
 
 ```
+git clone https://github.com/naomina121/Laravel-Nextjs.git
+
+or
+
+git clone git@github.com:naomina121/Laravel-Nextjs.git
+
 cd Laravel-Nextjs
 .\init.bat
 ```
