@@ -39,48 +39,12 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV COMPOSER_HOME /composer
 ENV PATH $PATH:/composer/vendor/bin
 
-# RUN usermod -aG apache apache
-
-# RUN chown -R apache:apache /var/www/html/
-
-
-
-# ファイルのコンテキストを設定
-# RUN chcon -R -t httpd_sys_content_t /var/www/
-
-# SELinuxの設定
-
-# RUN apt-get install policycoreutils -y
-
-# RUN apt-get install policycoreutils-python-utils -y
-
-# RUN apt-get install selinux-utils -y
-
-# ファイルのコンテキストを設定
-
-# RUN semanage fcontext -a -t httpd_sys_content_t "/var/www(/.*)?"
-
-# RUN restorecon -R /var/www
-
-# Apacheの再起動
-# RUN service apache2 restart
-
-# RUN setenforce 1
-
-# RUN setsebool -P httpd_can_network_connect 1
-
-# RUN apt-get install -y init systemd
-
 # Apacheの再起動
 RUN service apache2 restart
 
 # ファイルの権限を設定
 RUN chmod -R 777 /var/www/html/
 RUN chmod -R gu+w /var/www/html/
-
-#RUN --security-opt apparmor=unconfined
-
-# RUN chcon -R -t container_file_t /var/www
 
 # 作業ディレクトリを設定
 WORKDIR /var/www/html
