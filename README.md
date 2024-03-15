@@ -38,7 +38,7 @@ Docker-Desctop => Builds => Builds History => Remove
 ### Laravel
 
 ```
-lcoalhost:8000/public/
+lcoalhost:8080/public/
 ```
 
 ![image](https://github.com/naomina121/Laravel-Nextjs/assets/145886100/cd3466e6-468b-4279-940f-b50fdef524fb)
