@@ -33,11 +33,10 @@ Docker-Desctop => Builds => Builds History => Remove
 
 ```
 lcoalhost:8000/public/
-
-![image](https://github.com/naomina121/Laravel-Nextjs/assets/145886100/a06a4348-e8ba-4ced-9183-cdba9669f504)
-
-
 ```
+
+![image](https://github.com/naomina121/Laravel-Nextjs/assets/145886100/cd3466e6-468b-4279-940f-b50fdef524fb)
+
 
 ### Next.JS
 
