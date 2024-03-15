@@ -15,7 +15,8 @@ cd Laravel-Nextjs
 docker-compose stop
 ```
 
-All Remove
+・All Remove
+
 ```
 
 ※ Docker上のすべてのコンテナ、ボリューム、イメージ、キャッシュが削除されます。
